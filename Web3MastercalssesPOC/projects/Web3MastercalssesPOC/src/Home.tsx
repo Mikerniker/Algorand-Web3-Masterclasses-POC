@@ -54,7 +54,7 @@ const Home: React.FC = () => {
                 onClick={() => setOpenMintModal(true)}
                 data-test-id="open-mint-modal"
               >
-                Mint MasterPass NFT
+                Mint MasterPass 
               </button>
             </>
           )}
