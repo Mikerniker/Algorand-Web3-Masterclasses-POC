@@ -16,7 +16,12 @@ const Home: React.FC = () => {
   const { activeAddress } = useWallet()
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-teal-400 to-cyan-500 px-4">
+    
+  <div
+      className="min-h-screen flex items-center justify-center px-4"
+      style={{ background: 'linear-gradient(to right, #C06C84, #355C7D)' }}
+    >
+    {/* <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-teal-400 to-cyan-500 px-4"> */}
       <div className="bg-white shadow-xl rounded-2xl p-8 text-center max-w-md w-full">
         <h1 className="text-4xl font-bold text-gray-800 mb-4">
           Welcome to <span className="text-teal-600">MasterPass 🎟️</span>
